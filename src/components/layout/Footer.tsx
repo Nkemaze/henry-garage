@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Clock } from "lucide-react";
+import logo from "@/assets/logo.png"
 
 const Footer = () => {
   return (
@@ -9,12 +10,13 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-primary-foreground flex items-center justify-center">
+              {/* <div className="w-12 h-12 rounded-xl bg-primary-foreground flex items-center justify-center">
                 <span className="text-primary font-display font-bold text-xl">HG</span>
-              </div>
+              </div> */}
               <div>
-                <h3 className="font-display font-bold text-xl">Henri Garage</h3>
-                <p className="text-sm opacity-80">Excellence Automobile</p>
+                <img src= {logo} alt="" className="w-20 h-20" />
+                {/* <h3 className="font-display font-bold text-xl">Henri Garage</h3>
+                <p className="text-sm opacity-80">Excellence Automobile</p> */}
               </div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">

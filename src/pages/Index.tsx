@@ -132,8 +132,8 @@ const Index = () => {
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                <Link to="/contact">
+              <Button size="lg" variant="outline" asChild className="text-lg px-8 border-primary-foreground/30  text-primary-foreground hover:bg-primary-foreground/10">
+                <Link to="/contact" className="text-black">
                   <Phone className="mr-2 w-5 h-5" />
                   Nous Contacter
                 </Link>

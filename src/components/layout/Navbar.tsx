@@ -47,9 +47,9 @@ const Navbar = () => {
         <div className="container flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
+            {/* <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-display font-bold text-xl">HG</span>
-            </div>
+            </div> */}
             <div className="hidden sm:block">
               <img src= {logo} alt="" className="w-20 h-20" />
               {/* <h1 className="font-display font-bold text-xl text-foreground">Henri Garage</h1>

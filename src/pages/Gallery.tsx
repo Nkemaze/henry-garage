@@ -4,19 +4,26 @@ import { X } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import SectionTitle from "@/components/ui/SectionTitle";
 import heroImage from "@/assets/hero-garage.jpg";
+import img1 from "@/assets/1.jpeg"
+import img2 from "@/assets/2.jpeg"
+import img3 from "@/assets/3.jpeg"
+import img4 from "@/assets/4.jpeg"
+import img5 from "@/assets/5.jpeg"
+import img6 from "@/assets/6.jpeg"
+import img7 from "@/assets/7.jpeg"
 
 const categories = ["Tous", "Atelier", "Réparations", "Carrosserie", "Équipe"];
 
 const galleryItems = [
-  { id: 1, src: heroImage, category: "Atelier", title: "Notre atelier moderne" },
-  { id: 2, src: heroImage, category: "Réparations", title: "Diagnostic électronique" },
-  { id: 3, src: heroImage, category: "Carrosserie", title: "Travaux de carrosserie" },
-  { id: 4, src: heroImage, category: "Équipe", title: "Notre équipe d'experts" },
-  { id: 5, src: heroImage, category: "Atelier", title: "Zone de travail" },
-  { id: 6, src: heroImage, category: "Réparations", title: "Réparation moteur" },
-  { id: 7, src: heroImage, category: "Carrosserie", title: "Peinture automobile" },
-  { id: 8, src: heroImage, category: "Équipe", title: "Formation continue" },
-  { id: 9, src: heroImage, category: "Atelier", title: "Équipements de pointe" },
+  { id: 1, src: img1, category: "Atelier", title: "Notre atelier moderne" },
+  { id: 2, src: img2, category: "Réparations", title: "Diagnostic électronique" },
+  { id: 3, src: img3, category: "Carrosserie", title: "Travaux de carrosserie" },
+  { id: 4, src: img4, category: "Équipe", title: "Notre équipe d'experts" },
+  { id: 5, src: img5, category: "Atelier", title: "Zone de travail" },
+  { id: 6, src: img6, category: "Réparations", title: "Réparation moteur" },
+  { id: 7, src: img7, category: "Carrosserie", title: "Peinture automobile" },
+  { id: 8, src: img1, category: "Équipe", title: "Formation continue" },
+  { id: 9, src: img1, category: "Atelier", title: "Équipements de pointe" },
 ];
 
 const Gallery = () => {

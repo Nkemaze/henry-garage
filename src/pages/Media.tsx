@@ -4,7 +4,12 @@ import { Calendar, User, ArrowRight, Trophy, Award, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import SectionTitle from "@/components/ui/SectionTitle";
-import heroImage from "@/assets/hero-garage.jpg";
+import heroImage from "@/assets/hero-garage2.jpg";
+
+import vid1 from "@/assets/interview1.mp4"
+import vid2 from "@/assets/interview2.mp4"
+import vid3 from "@/assets/interview5.mp4"
+import vid4 from "@/assets/interview4.mp4"
 
 const achievements = [
   {
@@ -33,6 +38,7 @@ const blogPosts = [
     title: "Henri Garage remporte le prix de l'innovation",
     excerpt: "Notre engagement envers l'innovation technologique a été récompensé lors du salon de l'automobile de Yaoundé.",
     image: heroImage,
+    vid :vid1,
     date: "15 Jan 2024",
     author: "Équipe Henri Garage",
     category: "Actualités",
@@ -42,6 +48,7 @@ const blogPosts = [
     title: "Interview exclusive avec Mr. Henri",
     excerpt: "Découvrez le parcours inspirant de notre fondateur et sa vision pour l'avenir de l'automobile au Cameroun.",
     image: heroImage,
+    vid :vid2,
     date: "8 Jan 2024",
     author: "Presse Locale",
     category: "Interview",
@@ -51,6 +58,7 @@ const blogPosts = [
     title: "Nouveau partenariat avec les constructeurs européens",
     excerpt: "Henri Garage élargit son réseau de partenaires pour vous offrir des pièces d'origine de qualité.",
     image: heroImage,
+    vid :vid3,
     date: "28 Dec 2023",
     author: "Équipe Henri Garage",
     category: "Partenariat",
@@ -60,6 +68,7 @@ const blogPosts = [
     title: "Formation continue : nos techniciens se perfectionnent",
     excerpt: "Investir dans la formation pour vous garantir un service toujours à la pointe de la technologie.",
     image: heroImage,
+    vid :vid4,
     date: "15 Dec 2023",
     author: "RH Henri Garage",
     category: "Formation",
@@ -142,11 +151,12 @@ const Media = () => {
                 className="bg-card rounded-2xl overflow-hidden card-hover group"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  {/* <img
                     src={post.image}
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  /> */}
+                  <video src={post.vid} controls autoPlay muted></video>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-4 mb-4">

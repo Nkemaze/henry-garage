@@ -5,6 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Layout from "@/components/layout/Layout";
 import heroImage from "@/assets/hero-garage.jpg";
+import img1 from "@/assets/1.jpeg"
+import img2 from "@/assets/2.jpeg"
+import img3 from "@/assets/3.jpeg"
+import img4 from "@/assets/4.jpeg"
+import img5 from "@/assets/5.jpeg"
+import img6 from "@/assets/6.jpeg"
+import img7 from "@/assets/7.jpeg"
+
 
 const categories = ["Tous", "Huiles", "Pneus", "Freins", "Filtres", "Batteries", "Accessoires"];
 
@@ -14,7 +22,7 @@ const products = [
     name: "Huile Moteur 5W-30",
     category: "Huiles",
     price: "25,000",
-    image: heroImage,
+    image: img1,
     inStock: true,
   },
   {
@@ -22,7 +30,7 @@ const products = [
     name: "Pneu Continental 205/55R16",
     category: "Pneus",
     price: "85,000",
-    image: heroImage,
+    image: img2,
     inStock: true,
   },
   {
@@ -30,7 +38,7 @@ const products = [
     name: "Plaquettes de Frein Avant",
     category: "Freins",
     price: "35,000",
-    image: heroImage,
+    image: img3,
     inStock: true,
   },
   {
@@ -38,7 +46,7 @@ const products = [
     name: "Filtre à Air Performance",
     category: "Filtres",
     price: "15,000",
-    image: heroImage,
+    image: img4,
     inStock: false,
   },
   {
@@ -46,7 +54,7 @@ const products = [
     name: "Batterie 12V 70Ah",
     category: "Batteries",
     price: "95,000",
-    image: heroImage,
+    image: img5,
     inStock: true,
   },
   {
@@ -54,7 +62,7 @@ const products = [
     name: "Kit d'Entretien Complet",
     category: "Accessoires",
     price: "45,000",
-    image: heroImage,
+    image: img6,
     inStock: true,
   },
   {
@@ -62,7 +70,7 @@ const products = [
     name: "Huile Transmission Automatique",
     category: "Huiles",
     price: "30,000",
-    image: heroImage,
+    image: img7,
     inStock: true,
   },
   {
@@ -70,7 +78,7 @@ const products = [
     name: "Disques de Frein Ventilés",
     category: "Freins",
     price: "55,000",
-    image: heroImage,
+    image: img6,
     inStock: true,
   },
 ];
